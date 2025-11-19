@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.newbox{
+    display: flex;
+    justify-content: flex-end;
+}

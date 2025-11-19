@@ -1,0 +1,98 @@
+
+*{
+    background-color: #000000
+}
+.container{
+    height: 500px;
+    width: 900px;
+    position: relative;
+}
+.main{
+    color: white;
+    position: absolute;
+    margin-left: 530px;
+    top: 15px;
+    z-index: 5;
+}
+.globe{
+    width: 200px;
+    top: 175px;
+    left: 55%;
+    position: absolute;
+}
+.english{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    text-align: center;
+    color: #a4c2ff;
+}
+.eng{
+    font-size: 16px;
+}
+.number{
+    font-size: 15px;
+}
+.pyc{
+    position: absolute;
+    top: 34%;
+    left: 40%;
+    text-align: center;
+    color: #a4c2ff;
+}
+.french{
+    position: absolute;
+    top: 48%;
+    left: 39%;
+    text-align: center;
+    color: #a4c2ff;
+}
+.chinko{
+    position: absolute;
+    top: 61%;
+    left: 40%;
+    text-align: center;
+    color: #a4c2ff;
+}
+.polski{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    text-align: center;
+    color: #a4c2ff;
+}
+.china{
+    position: absolute;
+    top: 19%;
+    left: 76%;
+    text-align: center;
+    color: #a4c2ff;   
+}
+.deutsch{
+    position: absolute;
+    top: 33%;
+    left: 79%;
+    text-align: center;
+    color: #a4c2ff;
+}
+.espanol{
+    position: absolute;
+    top: 47%;
+    left: 80%;
+    text-align: center;
+    color: #a4c2ff;
+}
+.italy{
+    position: absolute;
+    top: 61%;
+    left: 79%;
+    text-align: center;
+    color: #a4c2ff;
+}
+.portugal{
+    position: absolute;
+    top: 74%;
+    left: 76%;
+    text-align: center;
+    color: #a4c2ff;
+}

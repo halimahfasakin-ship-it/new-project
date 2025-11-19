@@ -1,0 +1,485 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #251914;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #251914;
+    width: 100%;
+    height: 75px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.logo{
+    width: 200px;
+    position: absolute;
+    margin-left: 35px;
+    top: 10px;
+}
+.menu{
+    width: 50px;
+    margin-left: 90%;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 10px;
+    display: none;
+}
+header nav{
+    margin-left: 500px;
+    padding-top: 20px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+}
+header a:hover{
+    cursor: pointer;
+    color: #C18F3B;
+    text-decoration: underline;
+}
+header button{
+    margin-left: 80%;
+    color: white;
+    background-color: red;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+}
+header button:hover{
+    cursor: pointer;
+    background-color: rgb(233, 55, 55);
+    color: white;
+    border: 4px solid red;
+}
+.main{
+    margin-top: 150px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+}
+.let{
+    margin-top: 15px;
+}
+.let h1{
+    font-size: 53px;
+    font-weight: 300;
+}
+.let p{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.svg{
+    width: 400px;
+    margin-left: 150px;
+}
+.svg1{
+    width: 120px;
+}
+.img3{
+    width: 300px;
+}
+.img2{
+    width: 500px;
+}
+.main button{
+    color: white;
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.feature{
+    display: flex;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+.feature h3{
+    padding-top: 3px;
+    font-weight: 100;
+}
+.harvard{
+    background-color: white;
+    padding: 10px;
+    width: 130px;
+    position: absolute;
+    right: 50px;
+    margin-top: -50px;
+    z-index: 1;
+}
+.scroll{
+    background-color: #654321;
+    width: 100%;
+}
+.scroll video{
+    width: 100%;
+}
+.section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+.product p {
+    border: 2px solid #29d1b8;
+    padding: 5px 15px;
+    border-radius: 25px;
+    color: #29d1b8;
+}
+.review a {
+    color: #ffe7a3;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.review a:hover{
+    color: #fcc11f;
+    text-decoration: none;
+}
+.section h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.review {
+    width: 500px;
+    position: relative;
+}
+.circle{
+    height: 250px;
+    width: 250px;
+    background-color: #2f1d1c;
+    position: absolute;
+    border-radius: 50%;
+    margin: -50px;
+    margin-left: 250px;
+    position: absolute;
+}
+.team{
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    z-index: 1;
+}
+.marta{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.marta img{
+    border-radius: 50%;
+    width: 50px;
+}
+.our{
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 650px;
+    margin-left: 90px;
+}
+.section1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.section1 p{
+    font-size: 20px;
+}
+.long{
+    width: 595px;
+}
+.long p{
+    margin-bottom: 20px;
+}
+.long a{
+    color: #ffe7a3;
+    font-size: 20px;
+}
+.long a:hover{
+    color: #C18F3B;
+    cursor: pointer;
+    text-decoration: none;
+}
+.short{
+    width: 300px;
+    font-size: 20px;
+}
+.short a{
+    color: white;
+}
+.short a:hover{
+    color: #C18F3B;
+    cursor: pointer;
+    text-decoration: none;
+}
+.section2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.section2 p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.section2 h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.text{
+    width: 430px;
+}
+.text a{
+    color: #ffe7a3;
+    font-size: 20px;
+}
+.text a:hover{
+    color: #C18F3B;
+    cursor: pointer;
+    text-decoration: none;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat( 4, 100px);
+    grid-template-rows: repeat( 6, 100px);
+    row-gap: 20px;
+    column-gap: 10px;
+    padding: 20px;
+}
+.images img{
+    width: 75px;
+}
+.section3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.section3 img{
+    width: 600px;
+}
+.highlight{
+    width: 455px;
+}
+.highlight h3{
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.highlight h1{
+    font-size: 35px;
+}
+.highlight a{
+    color: #ffe7a3;
+    font-size: 20px;
+}
+.highlight a:hover{
+    color: #C18F3B;
+    cursor: pointer;
+    text-decoration: none;
+}
+.client{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 70px;
+    width: 890px;
+}
+.client h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.section4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    row-gap: 100px;
+}
+.section4 img{
+    width: 500px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.section4 div{
+    font-size: 20px;
+    width: 500px;
+}
+.section5{
+    margin-top: 100px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2f1d1c;
+}
+.section5 h3{
+    padding: 70px;
+    width: 920px;
+    font-size: 27px;
+    font-weight: 400;
+}
+.ever{
+    display: flex;
+}
+.ever p{
+    width: 250px;
+}
+.ever img{
+    width: 10%;
+    border-radius: 50%;
+}
+.ever a{    
+    color: #ffe7a3;
+    font-size: 20px;
+}
+.ever a:hover{
+    color: #C18F3B;
+    cursor: pointer;
+    text-decoration: none;
+}
+.jpeg{
+    margin-left: 70px;
+}
+@media (max-width: 768px) {
+    *{
+        width: 100%;
+    }
+    header{
+        display: sticky;
+        width: 100%;
+    }
+    header nav{
+        display: none;
+    }
+    header button{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .let{
+        width: 500px;
+        position: absolute;
+        z-index: 1;
+        margin-left: 30px;
+    }
+    .let h1{
+        font-size: 45px;
+    }
+    .let p{
+        font-size: 18px;
+        word-spacing: 3px;
+    }
+    .svg1{
+        display: none;
+    }
+    .main{
+        width: 100%;
+    }
+    .main img{
+        width: 750px;
+        margin-top: 400px;
+        margin-left: -132px;
+    }
+    .menu{
+        display: block;
+    }
+    .feature{
+        width: 485px;
+    }
+    .feature h3{
+        font-size: 13px;
+    }
+    .left{
+        width: 25px;
+    }
+    .right{
+        width: 300px;
+    }
+    .team{
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+    .product p:nth-child(1){
+        width: 160px;
+    }
+    .product p:nth-child(2){
+        width: 180px;
+    }
+    .product p:nth-child(3){
+        width: 90px;
+    }
+    .circle{
+        margin-top: 270px;
+        margin-right: 600px;
+        width: 230px;
+        height: 230px;
+    }
+    .our{
+        width: 500px;
+    }
+    .long{
+        width: 630px;
+        margin-left: 40px;
+    }
+    .short{
+        margin-right: 290px;
+        margin-top: 50px;
+    }
+    .text{
+        margin-right: 170px;
+    }
+    .images{
+        margin-top: 100px;
+        margin-left: 65px;
+    }
+    .section3 img{
+        margin-right: 150px;
+    }
+    .highlight{
+        margin-right: 165px;
+    }
+    .client{
+        width: 530px;
+        margin-top: 150px;
+    }
+    .client h1{
+        font-size: 40px;
+    }
+    .section4 img{
+        width: 300px;
+    }
+    .section4 div{
+        width: 300px;
+    }
+}
