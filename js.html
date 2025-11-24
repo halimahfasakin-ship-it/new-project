@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="alert('Hello this is Javascript')">Button</button>
+
+    <input type="number" placeholder="FirstNumber" id="num1">
+    <input type="text" placeholder="operation" id="sign">
+    <input type="number" placeholder="SecondNumber" id="num2">
+    <p id="answer"></p>
+    <button onclick="calculate()">Calculate</button>
+
+
+
+    <script>
+        function add(){
+            let a = Number(document.getElementById("num1").value);
+            let b = Number(document.getElementById("num1").value);
+            document.getElementById("answer").innerHTML = "Answer is equal to" +  (a * b);
+        }
+
+
+        function calculate(){
+            let a = Number(document.getElementById("num1").value);
+            let sign = String(document.getElementById("sign").value);
+            let b = Number(document.getElementById("num1").value);
+
+            if(sign =="+"){
+                answer = a + b;
+            }
+            else if (sign == "-"){
+                answer = a - b;
+            }
+            else if (sign == "*"){
+                answer = a * b;
+            }
+            else if (sign == "/"){
+                answer = a / b;
+            }
+            else{
+                answer = "Invaloid Operation"
+            }
+
+            document.getElementById("answer").innerHTML = answer
+        }
+
+
+        // let course = "Web Development";
+        // let age =45;
+        // let isLoggedIn = false;
+        // let isloggedin = true;
+        // let Class = null;
+        // let x;
+        // let number = 62834874982986732498n;
+
+        // let user = {name: "Halimah", age:20, wentToClass: true}
+
+        // let num1 = 10;
+        // let num2 = 5;
+
+        // console.log(num1 / num2);
+    </script>
+</body>
+</html>
