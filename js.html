@@ -27,7 +27,7 @@
         function calculate(){
             let a = Number(document.getElementById("num1").value);
             let sign = String(document.getElementById("sign").value);
-            let b = Number(document.getElementById("num1").value);
+            let b = Number(document.getElementById("num2").value);
 
             if(sign =="+"){
                 answer = a + b;
@@ -42,7 +42,7 @@
                 answer = a / b;
             }
             else{
-                answer = "Invaloid Operation"
+                answer = "Invalid Operation"
             }
 
             document.getElementById("answer").innerHTML = answer
